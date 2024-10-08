@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="ABC Pte Ltd By Loh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <RadioButton
+        android:id="@+id/radioButton1"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:onClick="rbclick"
+        android:text="Button 1"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="125dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="127dp"
+        android:layout_height="wrap_content"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:onClick="rbclick"
+        android:text="Button2"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:onClick="rbclick"
+        android:text="Button 3"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="93dp"
+        android:layout_height="50dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        app:srcCompat="@drawable/b1imagenew" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="74dp"
+        android:layout_height="56dp"
+        android:layout_row="2"
+        android:layout_column="0"
+        app:srcCompat="@drawable/b1imagenew" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="86dp"
+        android:layout_height="48dp"
+        android:layout_row="3"
+        android:layout_column="0"
+        app:srcCompat="@drawable/b1imagenew" />
+
+</GridLayout>
